@@ -32,8 +32,7 @@ SECRET_KEY = '@98ae2%@1me$&^!ccp-)xz4g8y7pm-ut4=or32i2^$g80i2+l-'
 DEBUG = development
 
 ALLOWED_HOSTS = [os.environ.get('C9_HOSTNAME'), 
-                 os.environ.get('HOSTNAME'),
-                 os.environ.get('SQL3_ALLOWED_HOSTS')]
+                 os.environ.get('HOSTNAME'),]
 
 host = os.environ.get('SITE_HOST')
 if host:
